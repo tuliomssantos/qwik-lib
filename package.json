@@ -1,5 +1,5 @@
 {
-  "name": "my-qwik-library-name",
+  "name": "@tuliomssantos/qwik-button",
   "version": "0.0.1",
   "description": "Create a reusable Qwik component library",
   "main": "./lib/index.qwik.mjs",
@@ -10,7 +10,8 @@
       "import": "./lib/index.qwik.mjs",
       "require": "./lib/index.qwik.cjs",
       "types": "./lib-types/index.d.ts"
-    }
+    },
+    "./lib/style.css": "./lib/style.css"
   },
   "files": [
     "lib",
@@ -43,9 +44,19 @@
     "eslint": "8.36.0",
     "eslint-plugin-qwik": "latest",
     "np": "7.6.1",
+    "postcss": "^8.4.21",
+    "postcss-preset-env": "^8.2.0",
     "prettier": "2.8.7",
+    "typed-css-modules": "^0.7.2",
     "typescript": "5.0.2",
     "undici": "5.21.0",
     "vite": "4.2.1"
-  }
+  },
+  "license": "Unlicense",
+  "author": {
+    "name": "Túlio Santos",
+    "email": "tuliomssantos@gmail.com",
+    "url": "https://www.linkedin.com/in/tulio-santos-b04958172"
+  },
+  "dependencies": {}
 }
